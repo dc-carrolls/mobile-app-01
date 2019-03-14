@@ -17,10 +17,10 @@
         Steven Carroll
     </author>
     <icon src="Icon.png"/>
-    <gap:plugin name="org.apache.cordova.splashscreen"/>
-    <gap:splash src="Default.png"/>
     <access origin="*"/>
-    <plugin name="cordova-plugin-whitelist" version="1"/>   
+    <plugin name="cordova-plugin-whitelist" version="1"/> 
+    <plugin name="cordova-plugin-splashscreen" spec="~5.0.2" />     
+    <splash src="Default.png" />
     <allow-intent href="http://*/*"/>
     <allow-intent href="https://*/*"/>  
     <allow-intent href="tel:*"/>
