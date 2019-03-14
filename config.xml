@@ -17,6 +17,7 @@
         Steven Carroll
     </author>
     <icon src="Icon.png"/>
+    <gap:plugin name="org.apache.cordova.splashscreen"/>
     <gap:splash src="Default.png"/>
     <access origin="*"/>
     <plugin name="cordova-plugin-whitelist" version="1"/>   
